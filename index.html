@@ -3,8 +3,11 @@
     <title>sarajevo - creative one page template</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=divice-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,900;1,100&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,900;1,100&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <script defer src="js/app.js"></script>
 </head>
 <body>
@@ -12,31 +15,35 @@
     <!-- header -->
     <header class="header">
         <div class="container">
+            <div class="header__inner">
 
-            <div class="logo">sarajevo<span class="logo logo--dot">.</span></div>
-            <div class="header__tagline">I’am your tag line</div>
-            
-            <nav class="nav">
+                <div class="header__wrapper">
+                    <div class="logo">sarajevo<span class="logo logo--dot">.</span></div>
+                    <div class="header__tagline"><p>I’am your tag line</p></div>
+                </div>
+                
+                <nav class="nav">
 
-                <ul class="nav__ul">
-                    <li class="nav__li">
-                        <a href="" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__li">
-                        <a href="" class="nav__link">Features</a>
-                    </li>
-                    <li class="nav__li">
-                        <a href="" class="nav__link">Works</a>
-                    </li>
-                    <li class="nav__li">
-                        <a href="" class="nav__link">Team</a>
-                    </li>
-                    <li class="nav__li">
-                        <a href="" class="nav__link">Contact</a>
-                    </li>
-                </ul>
+                    <ul class="nav__ul">
+                        <li class="nav__li">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__li">
+                            <a href="#" class="nav__link">Features</a>
+                        </li>
+                        <li class="nav__li">
+                            <a href="#" class="nav__link">Works</a>
+                        </li>
+                        <li class="nav__li">
+                            <a href="#" class="nav__link">Team</a>
+                        </li>
+                        <li class="nav__li">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
 
-            </nav>
+                </nav>
+            </div>
         </div>
 
     </header>
@@ -46,62 +53,77 @@
         <div class="container">
 
             <div class="intro__header">
-
                 <h1 class="intro__title">sarajevo<span class="intro__title intro__title--dot">.</span></h1>
                 <h2 class="intro__subtitle"> <span class="intro__subtitle intro__subtitle--blue">/creative</span> one page template.</h2>
                 <p class="intro__text">We are a team of professionals</p>
-
             </div>
 
             <div class="intro__social">
-                <div class="intro__item"></div>
-                <div class="intro__item"></div>
-                <div class="intro__item"></div>
-                <div class="intro__item"></div>
+                <div class="intro__item"><i class="fab fa-twitter"></i></div>
+                <div class="intro__item"><i class="fab fa-facebook-f"></i></div>
+                <div class="intro__item"><i class="fab fa-google-plus-g"></i></div>
+                <div class="intro__item"><i class="fab fa-dribbble"></i></div>
             </div>
+
+            
 
         </div>
 
     </section>
 
     <!-- features -->
-    <section class="section">
+    <section class="section section--gray">
         <div class="container">
 
-            <div class="section-header">
+            <div class="section__header">
 
-                <h2 class="section-header__title">Features</h2>
-
-                <div class="section-features">
-
-                    <div class="section-features__item">
-                        <img src="" alt="" class="section-features__icon">
-                        <div class="section-features__information">
-                            <h3 class="section-features__title">Branding</h3>
-                            <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
-                        </div>
-                    </div>
-
-                    <div class="section-features__item">
-                        <img src="" alt="" class="section-features__icon">
-                        <div class="section-features__information">
-                            <div class="section-features__title">Development</div>
-                            <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
-                        </div>
-                    </div>
-
-                    <div class="section-features__item">
-                        <img src="" alt="" class="section-features__icon">
-                        <div class="section-features__information">
-                            <div class="section-features__title">Branding</div>
-                            <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
-                        </div>
-                    </div>
-
+                <h2 class="section__title">Features</h2>
+                <div class="section__wrapper">
+                    <div class="section__string"><i class="far fa-heart"></i></div>
                 </div>
 
-            </div> <!-- ./section-header -->
+            </div>
+
+            <div class="section-features">
+
+                <div class="section-features__item">
+                    <div class="section-features__image">
+                        <div class="section-features__icon"><i class="fas fa-feather"></i></div>
+                    </div>
+                    <div class="section-features__information">
+                        <h3 class="section-features__title">Branding</h3>
+                        <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
+                    </div>
+                </div>
+                
+                <div class="section-features__item">
+                    <div class="section-features__image">
+                        <div class="section-features__icon"><i class="fas fa-pencil-alt"></i></div>
+                    </div>
+                    <div class="section-features__information">
+                        <div class="section-features__title">Development</div>
+                        <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
+                    </div>
+                </div>
+
+                <div class="section-features__item">
+                    <div class="section-features__image">
+                        <div class="section-features__icon"><i class="fas fa-bullhorn"></i></div>
+                    </div>
+                    <div class="section-features__information">
+                        <div class="section-features__title">Consulting</div>
+                        <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
+                    </div>
+                </div>
+
+            </div>
+
             
+        </section>
+    
+
+    <section class="section">
+        <div class="container">
             <div class="features">
 
                 <div class="features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</div>
@@ -111,7 +133,7 @@
                     <div class="features-column">
 
                         <div class="features-column__item">
-                            <img src="" alt="" class="featues-column__icon">
+                            <div class="features-column__icon"><span class="pe-7s-tools"></span></div>
                             <div class="features-column__information">
                                 <h3 class="features-column__title">Accusan timar</h3>
                                 <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
@@ -119,7 +141,7 @@
                         </div>
 
                         <div class="features-column__item">
-                            <img src="" alt="" class="featues-column__icon">
+                            <div class="features-column__icon"><span class="pe-7s-timer"></span></div>
                             <div class="features-column__information">
                                 <h3 class="features-column__title">Accusan timar</h3>
                                 <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
@@ -127,7 +149,7 @@
                         </div>
 
                         <div class="features-column__item">
-                            <img src="" alt="" class="featues-column__icon">
+                            <div class="features-column__icon"><span class="pe-7s-music"></span></div>
                             <div class="features-column__information">
                                 <h3 class="features-column__title">Accusan timar</h3>
                                 <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
@@ -136,14 +158,14 @@
                         
                     </div>
 
-                    <div class="features-item features-item--image">
-                        <img src="" alt="" class="featues__icon">
+                    <div class="features-column features-column--image">
+                        <img src="./images/features/features_4.png" alt="" class="features-column__photo">
                     </div>
 
                     <div class="features-column">
 
                         <div class="features-column__item">
-                            <img src="" alt="" class="featues-column__icon">
+                            <div class="features-column__icon"><span class="pe-7s-user"></span></div>
                             <div class="features-column__information">
                                 <h3 class="features-column__title">Accusan timar</h3>
                                 <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
@@ -151,7 +173,7 @@
                         </div>
 
                         <div class="features-column__item">
-                            <img src="" alt="" class="featues-column__icon">
+                            <div class="features-column__icon"><span class="pe-7s-paper-plane"></span></div>
                             <div class="features-column__information">
                                 <h3 class="features-column__title">Accusan timar</h3>
                                 <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
@@ -159,7 +181,7 @@
                         </div>
 
                         <div class="features-column__item">
-                            <img src="" alt="" class="featues-column__icon">
+                            <div class="features-column__icon"><span class="pe-7s-camera"></span></div>
                             <div class="features-column__information">
                                 <h3 class="features-column__title">Accusan timar</h3>
                                 <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
@@ -174,11 +196,14 @@
     </section>
 
     <!-- works -->
-    <section class="section">
+    <section class="section section--gallery">
         
         <div class="container">
             <div class="section__header">
                 <h2 class="section__title">Works</h2>
+                <div class="section__wrapper">
+                    <div class="section__string"><i class="far fa-heart"></i></div>
+                </div>
                 <div class="section__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
             </div>
         </div>
@@ -188,19 +213,19 @@
             <div class="gallery__nav">
                 <div class="gallery__ul">
                     <div class="gallery__li">
-                        <a href="" class="gallery__link"></a>
+                        <a href="##" class="gallery__link">All</a>
                     </div>
                     <div class="gallery__li">
-                        <a href="" class="gallery__link"></a>
+                        <a href="##" class="gallery__link">Branding</a>
                     </div>
                     <div class="gallery__li">
-                        <a href="" class="gallery__link"></a>
+                        <a href="##" class="gallery__link">Web</a>
                     </div>
                     <div class="gallery__li">
-                        <a href="" class="gallery__link"></a>
+                        <a href="##" class="gallery__link">Logo Design</a>
                     </div>
                     <div class="gallery__li">
-                        <a href="" class="gallery__link"></a>
+                        <a href="##" class="gallery__link">Photography</a>
                     </div>
                 </div>
             </div>
@@ -208,31 +233,99 @@
             <div class="gallery__wrapper">
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Branding" class="gallery__image">
+
+                    <img src="./images/works/works_1.jpg" alt="" data-category="Branding" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Branding" class="gallery__image">
+
+                    <img src="./images/works/works_2.jpg" alt="" data-category="Branding" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Branding" class="gallery__image">
+
+                    <img src="./images/works/works_3.jpg" alt="" data-category="Branding" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Web" class="gallery__image">
+
+                    <img src="./images/works/works_4.jpg" alt="" data-category="Web" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Web" class="gallery__image">
+
+                    <img src="./images/works/works_5.jpg" alt="" data-category="Web" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Logo design" class="gallery__image">
+
+                    <img src="./images/works/works_6.jpg" alt="" data-category="Logo design" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
                 <div class="gallery__item">
-                    <img src="" alt="" data-category="Photography" class="gallery__image">
+
+                    <img src="./images/works/works_7.jpg" alt="" data-category="Photography" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
+                </div>
+
+                <div class="gallery__item">
+
+                    <img src="./images/works/works_8.jpg" alt="" data-category="Photography" class="gallery__image">
+
+                    <div class="gallery__information">
+                        <img src="./images/works/works_9.png" alt="" class="gallery__icon">
+                        <h3 class="gallery__title">Labore et dolore magnam</h3>
+                        <h4 class="gallery__subtitle">Photography</h4>
+                    </div>
+
                 </div>
 
             </div>
@@ -244,32 +337,47 @@
         <div class="container">
 
             <div class="section__header">
-                <h2 class="section__title"></h2>
-                <div class="section__text"></div>
+                <h2 class="section__title">Meet Our Team</h2>
+                <div class="section__wrapper">
+                    <div class="section__string"><i class="far fa-heart"></i></div>
+                </div>
+                <div class="section__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
             </div>
             
             <div class="card">
-                <div class="card__image"></div>
-                <div class="card__title"></div>
-                <div class="card__subtitle"></div>
-            </div>
 
-            <div class="card">
-                <div class="card__image"></div>
-                <div class="card__title"></div>
-                <div class="card__subtitle"></div>
-            </div>
+                <div class="card__item">
+                    <div class="card__image">
+                        <img src="./images/our-team/our-team_1.jpg" alt="" class="card__photo">
+                    </div>
+                    <h3 class="card__title">John Filmr Doe</h3>
+                    <h4 class="card__subtitle">Managing Director</h4>
+                </div>
 
-            <div class="card">
-                <div class="card__image"></div>
-                <div class="card__title"></div>
-                <div class="card__subtitle"></div>
-            </div>
+                <div class="card__item">
+                    <div class="card__image">
+                        <img src="./images/our-team/our-team_2.jpg" alt="" class="card__photo">
+                    </div>
+                    <h3 class="card__title">Chystine Hineu</h3>
+                    <h4 class="card__subtitle">Lead Designer</h4>
+                </div>
 
-            <div class="card">
-                <div class="card__image"></div>
-                <div class="card__title"></div>
-                <div class="card__subtitle"></div>
+                <div class="card__item">
+                    <div class="card__image">
+                        <img src="./images/our-team/our-team_3.jpg" alt="" class="card__photo">
+                    </div>
+                    <h3 class="card__title">Martin Matrone</h3>
+                    <h4 class="card__subtitle">Lead Developer</h4>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__image">
+                        <img src="./images/our-team/our-team_4.jpg" alt="" class="card__photo">
+                    </div>
+                    <h3 class="card__title">Steve Flaulkin</h3>
+                    <h4 class="card__subtitle">Sr. UI Designer</h4>
+                </div>
+
             </div>
 
         </div>
@@ -282,7 +390,12 @@
             <div class="facts">
                 
                 <div class="facts__header">
-                    <h2 class="facts__title"></h2>
+                    
+                    <h2 class="facts__title">Some Fun Facts</h2>
+                    <div class="section__wrapper">
+                        <div class="section__string"><i class="far fa-heart"></i></div>
+                    </div>
+
                 </div>
 
                 <div class="facts-list">
@@ -322,8 +435,13 @@
     <section class="section">
         <div class="container">
             <div class="section__header">
-                <h2 class="section__title"></h2>
+
+                <h2 class="section__title">Let’s Discuss</h2>
+                <div class="section__wrapper">
+                    <div class="section__string"><i class="far fa-heart"></i></div>
+                </div>
                 <div class="section__text"></div>
+
             </div>
 
             <div class="contact">
