@@ -485,18 +485,21 @@ button::-moz-focus-inner {padding: 0; border: 0;}
     margin: 0 15px;
 }
 
-.gallery__link {
+.gallery__button {
     padding: 5px 10px;
 
     color: #062033;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     text-decoration: none;
-
+    line-height: 1.3;
+    
+    background: #fff;
+    border: 0;
     border-radius: 5px;
 }
 
-.gallery__link:hover {
+.gallery__button:hover {
     color: #fff;
 
     background-color: #4c76ff;
