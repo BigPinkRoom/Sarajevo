@@ -31,7 +31,7 @@ $(document).ready(function() {
     $('#header .nav__link').on('click', function(event) {
         event.preventDefault()
 
-        let $id = '#' + $(this).attr('dataset-scroll');
+        let $id = '#' + $(this).attr('data-scroll');
 
         $('body, html').animate({
             scrollTop: $($id).offset().top,
