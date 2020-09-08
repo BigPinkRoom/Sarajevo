@@ -14,9 +14,10 @@
     <body>
 
         <!-- header -->
-        <header class="header">
+        <header class="header" id="header">
             <div class="container">
                 <div class="header__inner">
+
                     <div class="header__wrapper">
                         <div class="logo">
                             <a href="" class="logo__link">sarajevo<span class="logo logo--dot">.</span></a>
@@ -25,33 +26,36 @@
                     </div>
                     
                     <nav class="nav">
-
                         <ul class="nav__ul">
                             <li class="nav__li">
-                                <a href="#" class="nav__link">Home</a>
+                                <a href="#" class="nav__link" dataset-scroll="intro">Home</a>
                             </li>
                             <li class="nav__li">
-                                <a href="#" class="nav__link">Features</a>
+                                <a href="#" class="nav__link" dataset-scroll="features">Features</a>
                             </li>
                             <li class="nav__li">
-                                <a href="#" class="nav__link">Works</a>
+                                <a href="#" class="nav__link" dataset-scroll="works">Works</a>
                             </li>
                             <li class="nav__li">
-                                <a href="#" class="nav__link">Team</a>
+                                <a href="#" class="nav__link" dataset-scroll="team">Team</a>
                             </li>
                             <li class="nav__li">
-                                <a href="#" class="nav__link">Contact</a>
+                                <a href="#" class="nav__link" dataset-scroll="contact">Contact</a>
                             </li>
                         </ul>
-
                     </nav>
+
+                    <button class="nav-toggle" type="button" id="nav-toggle">
+                        <span class="nav-toggle__item">Menu</span>
+                    </button>
+
                 </div>
             </div>
 
         </header>
 
         <!-- intro -->
-        <section class="intro">
+        <section class="intro" id="intro">
             <div class="container">
 
                 <div class="intro__header">
@@ -75,27 +79,22 @@
                     </div>
                 </div>
 
-                
-
             </div>
 
         </section>
 
         <!-- features -->
-        <section class="section section--gray">
+        <section class="section section--gray" id="features">
             <div class="container">
 
                 <div class="section__header">
-
                     <h2 class="section__title">Features</h2>
                     <div class="section__wrapper">
                         <div class="section__string"><i class="far fa-heart"></i></div>
                     </div>
-
                 </div>
 
                 <div class="section-features">
-
                     <div class="section-features__item">
                         <div class="section-features__image">
                             <div class="section-features__icon"><i class="fas fa-feather"></i></div>
@@ -105,7 +104,6 @@
                             <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
                         </div>
                     </div>
-                    
                     <div class="section-features__item">
                         <div class="section-features__image">
                             <div class="section-features__icon"><i class="fas fa-pencil-alt"></i></div>
@@ -115,7 +113,6 @@
                             <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
                         </div>
                     </div>
-
                     <div class="section-features__item">
                         <div class="section-features__image">
                             <div class="section-features__icon"><i class="fas fa-bullhorn"></i></div>
@@ -125,11 +122,10 @@
                             <div class="section-features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
                         </div>
                     </div>
-
                 </div>
 
-                
-            </section>
+            </div>
+        </section>
         
 
         <section class="section section--smartphone">
@@ -139,9 +135,7 @@
                     <div class="features__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</div>
 
                     <div class="features__content">
-
                         <div class="features-column">
-
                             <div class="features-column__item">
                                 <div class="features-column__icon"><span class="pe-7s-tools"></span></div>
                                 <div class="features-column__information">
@@ -149,7 +143,6 @@
                                     <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
                                 </div>
                             </div>
-
                             <div class="features-column__item">
                                 <div class="features-column__icon"><span class="pe-7s-timer"></span></div>
                                 <div class="features-column__information">
@@ -157,7 +150,6 @@
                                     <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
                                 </div>
                             </div>
-
                             <div class="features-column__item">
                                 <div class="features-column__icon"><span class="pe-7s-music"></span></div>
                                 <div class="features-column__information">
@@ -165,7 +157,6 @@
                                     <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
                                 </div>
                             </div>
-                            
                         </div>
 
                         <div class="features-column features-column--image">
@@ -173,7 +164,6 @@
                         </div>
 
                         <div class="features-column">
-
                             <div class="features-column__item">
                                 <div class="features-column__icon"><span class="pe-7s-user"></span></div>
                                 <div class="features-column__information">
@@ -181,7 +171,6 @@
                                     <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
                                 </div>
                             </div>
-
                             <div class="features-column__item">
                                 <div class="features-column__icon"><span class="pe-7s-paper-plane"></span></div>
                                 <div class="features-column__information">
@@ -189,7 +178,6 @@
                                     <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
                                 </div>
                             </div>
-
                             <div class="features-column__item">
                                 <div class="features-column__icon"><span class="pe-7s-camera"></span></div>
                                 <div class="features-column__information">
@@ -197,7 +185,6 @@
                                     <div class="features-column__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
                                 </div>
                             </div>
-
                         </div>
                         
                     </div> <!-- ./features__content -->
@@ -206,7 +193,7 @@
         </section>
 
         <!-- works -->
-        <section class="section section--gallery">
+        <section class="section section--gallery" id="works">
             
             <div class="container">
                 <div class="section__header">
@@ -219,7 +206,6 @@
             </div>
 
             <div class="gallery">
-
                 <div class="gallery__nav">
                     <div class="gallery__ul">
                         <div class="gallery__li">
@@ -241,11 +227,8 @@
                 </div>
 
                 <div class="gallery__wrapper">
-
                     <div class="gallery__item">
-
                         <img src="./images/works/works_1.jpg" alt="" data-category="Branding" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -253,13 +236,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
                         <img src="./images/works/works_2.jpg" alt="" data-category="Branding" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -267,13 +247,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
                         <img src="./images/works/works_3.jpg" alt="" data-category="Branding" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -281,13 +258,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
                         <img src="./images/works/works_4.jpg" alt="" data-category="Web" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -295,13 +269,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
                         <img src="./images/works/works_5.jpg" alt="" data-category="Web" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -309,13 +280,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
-                        <img src="./images/works/works_6.jpg" alt="" data-category="Logo design" class="gallery__image">
-
+                        <img src="./images/works/works_6.jpg" alt="" data-category="Logo_Design" class="gallery__image">
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -323,13 +291,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
                         <img src="./images/works/works_7.jpg" alt="" data-category="Photography" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -337,13 +302,10 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
 
                     <div class="gallery__item">
-
                         <img src="./images/works/works_8.jpg" alt="" data-category="Photography" class="gallery__image">
-
                         <div class="gallery__information">
                             <a href="" class="gallery__ref">
                                 <i class="far fa-eye"></i>
@@ -351,15 +313,13 @@
                             <h3 class="gallery__title">Labore et dolore magnam</h3>
                             <h4 class="gallery__subtitle">Photography</h4>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </section>
 
         <!-- our-team -->
-        <section class="section section--card">
+        <section class="section section--card" id="team">
             <div class="container">
 
                 <div class="section__header">
@@ -369,18 +329,15 @@
                     </div>
                     <div class="section__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
                 </div>
-                
-                <div class="card">
 
+                <div class="card">
                     <div class="card__item">
                         <div class="card__image">
                             <div class="card-information">
-                                
                                 <div class="card-information__wrapper">
                                     <div class="card-information__title"><p>Nemo enim ipsam voluptatem quia voluptas</p></div>
                                     <div class="card-information__subtitle"><p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p></div>
                                 </div>
-
                                 <div class="card-information__social">
                                     <a href="#" target="_blank" class="card-information__item">
                                         <i class="fab fa-twitter"></i>
@@ -393,9 +350,7 @@
                                     </a>
                                 </div>
                             </div>
-
                             <img src="./images/our-team/our-team_1.jpg" alt="" class="card__photo">
-
                         </div>
                         <h3 class="card__title"><a href="" class="card__link">John Filmr Doe</a></h3>
                         <h4 class="card__subtitle">Managing Director</h4>
@@ -403,14 +358,11 @@
 
                     <div class="card__item">
                         <div class="card__image">
-
                             <div class="card-information">
-                                
                                 <div class="card-information__wrapper">
                                     <div class="card-information__title"><p>Nemo enim ipsam voluptatem quia voluptas</p></div>
                                     <div class="card-information__subtitle"><p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p></div>
                                 </div>
-
                                 <div class="card-information__social">
                                     <a href="#" target="_blank" class="card-information__item">
                                         <i class="fab fa-twitter"></i>
@@ -422,11 +374,8 @@
                                         <i class="fab fa-google-plus-g"></i>
                                     </a>
                                 </div>
-
                             </div>
-
                             <img src="./images/our-team/our-team_2.jpg" alt="" class="card__photo">
-
                         </div>
                         <h3 class="card__title"><a href="" class="card__link">Chystine Hineu</a></h3>
                         <h4 class="card__subtitle">Lead Designer</h4>
@@ -434,14 +383,11 @@
 
                     <div class="card__item">
                         <div class="card__image">
-                            
                             <div class="card-information">
-                                
                                 <div class="card-information__wrapper">
                                     <div class="card-information__title"><p>Nemo enim ipsam voluptatem quia voluptas</p></div>
                                     <div class="card-information__subtitle"><p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p></div>
                                 </div>
-
                                 <div class="card-information__social">
                                     <a href="#" target="_blank" class="card-information__item">
                                         <i class="fab fa-twitter"></i>
@@ -453,11 +399,8 @@
                                         <i class="fab fa-google-plus-g"></i>
                                     </a>
                                 </div>
-
                             </div>
-
                             <img src="./images/our-team/our-team_3.jpg" alt="" class="card__photo">
-
                         </div>
                         <h3 class="card__title"><a href="" class="card__link">Martin Matrone</a></h3>
                         <h4 class="card__subtitle">Lead Developer</h4>
@@ -465,14 +408,11 @@
 
                     <div class="card__item">
                         <div class="card__image">
-
                             <div class="card-information">
-                                
                                 <div class="card-information__wrapper">
                                     <div class="card-information__title"><p>Nemo enim ipsam voluptatem quia voluptas</p></div>
                                     <div class="card-information__subtitle"><p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p></div>
                                 </div>
-
                                 <div class="card-information__social">
                                     <a href="#" target="_blank" class="card-information__item">
                                         <i class="fab fa-twitter"></i>
@@ -484,18 +424,14 @@
                                         <i class="fab fa-google-plus-g"></i>
                                     </a>
                                 </div>
-
                             </div>
-
                             <img src="./images/our-team/our-team_4.jpg" alt="" class="card__photo">
-                            
                         </div>
                         <h3 class="card__title"><a href="" class="card__link">Steve Flaulkin</a></h3>
                         <h4 class="card__subtitle">Sr. UI Designer</h4>
                     </div>
 
                 </div>
-
             </div>
         </section>
 
@@ -504,60 +440,50 @@
             <div class="container">
 
                 <div class="section__header">
-            
                     <h2 class="section__title">Some Fun Facts</h2>
                     <div class="section__wrapper">
                         <div class="section__string"><i class="far fa-heart"></i></div>
                     </div>
-
                 </div>
                 
                 <div class="facts">
-
                     <div class="facts__list">
-
                         <div class="facts__item">
                             <div class="facts__icon"><i class="far fa-clock"></i></div>
                             <h3 class="facts__title">3200</h3>
                             <div class="facts__subtitle"><p>Hours of Work</p></div>
                         </div>
-
                         <div class="facts__item">
                             <div class="facts__icon"><i class="fas fa-user-friends"></i></div>
                             <h3 class="facts__title">120</h3>
                             <div class="facts__subtitle"><p>Satisfied Clinets</p></div>
                         </div>
-
                         <div class="facts__item">
                             <div class="facts__icon"><i class="fas fa-rocket"></i></div>
                             <h3 class="facts__title">360</h3>
                             <div class="facts__subtitle"><p>Projects delivered</p></div>
                         </div>
-
                         <div class="facts__item">
                             <div class="facts__icon"><i class="fas fa-trophy"></i></div>
                             <h3 class="facts__title">42</h3>
                             <div class="facts__subtitle"><p>Awards Won</p></div>
                         </div>
-
                     </div>
-
                 </div>
 
             </div>
         </section>
 
         <!-- contact -->
-        <section class="section section--contact">
+        <section class="section section--contact" id="contact">
             <div class="container">
-                <div class="section__header">
 
+                <div class="section__header">
                     <h2 class="section__title">Let’s Discuss</h2>
                     <div class="section__wrapper">
                         <div class="section__string"><i class="far fa-heart"></i></div>
                     </div>
                     <div class="section__text">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</div>
-
                 </div>
 
                 <div class="contact">
@@ -581,7 +507,7 @@
                             <input type="text" placeholder="Message" class="contact-form__input">
                         </div>
                         <div class="contact-form__item">
-                            <button class="contact-form__button" id="test">Send message</button>
+                            <button class="contact-form__button">Send message</button>
                         </div>
                     </form>
 
@@ -615,7 +541,6 @@
         <footer class="footer">
 
             <div class="footer__wrapper">
-
                 <div class="footer__item">
                     <div class="footer__header">
                         <div class="logo logo--footer">
