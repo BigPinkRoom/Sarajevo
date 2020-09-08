@@ -45,11 +45,11 @@ $(document).ready(function() {
         category = category.split(' ').join('_');
 
         if (category === 'All') {
-            $('#works img[data-category').show();
+            $('#works img[data-category').parent().show();
             return
         }
 
-        $('#works img[data-category').show();
-        $('#works img[data-category]').not('img[data-category='+ category + ']').hide();
+        $('#works img[data-category').parent().show();
+        $('#works img[data-category]').not('img[data-category='+ category + ']').parent().hide();
     })
 })
