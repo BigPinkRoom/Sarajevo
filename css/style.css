@@ -238,6 +238,10 @@ button::-moz-focus-inner {padding: 0; border: 0;}
     margin: 7px 0;
 }
 
+.header.fixed .nav__link::before {
+    bottom: 37px;
+}
+
 .header__inner {
     display: flex;
     justify-content: space-between;
